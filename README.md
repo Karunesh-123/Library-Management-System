@@ -1,3 +1,4 @@
+HEAD
 # Library Management System
 
 A frontend-only React + Vite project built with JavaScript and regular CSS. It does not use Tailwind CSS, Redux Toolkit, or a backend.
@@ -26,3 +27,7 @@ npm run dev
 ## Notes
 
 Data is stored in the browser's LocalStorage. The issue date accepts today or an earlier date. Due dates can be in the past to allow overdue testing. A book is overdue when its due date is before today and it has not been returned. Returning a book updates its return date immediately without a confirmation popup.
+=======
+# Library-Management-System
+A Library Management System built with React.js, JavaScript, HTML, and CSS. Manage books, student records, book issuing and returns, overdue tracking, and book availability. Features include a dashboard, student-wise tracking, reusable React components, and LocalStorage for data persistence.
+2d958843f93e8da44919e473821e8986924f4aba
