@@ -1,0 +1,3 @@
+export default function AvailabilitySearchControls({ searchType, setSearchType, searchText, setSearchText }) {
+  return <div className="availability-controls"><div className="segmented-control"><button type="button" className={searchType === "name" ? "selected" : ""} onClick={() => setSearchType("name")}>Book name</button><button type="button" className={searchType === "author" ? "selected" : ""} onClick={() => setSearchType("author")}>Author</button></div><input value={searchText} onChange={(event) => setSearchText(event.target.value)} placeholder={searchType === "name" ? "Search by book name" : "Search by author"} /></div>;
+}
